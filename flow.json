@@ -37,7 +37,7 @@
     {
         "id": "f4cb680d4b0c048d",
         "type": "ui_tab",
-        "name": "IoT Dashboard",
+        "name": "Linear Unit Dashboard",
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
@@ -186,11 +186,169 @@
         "className": ""
     },
     {
+        "id": "a46b94b2b133966c",
+        "type": "ui_tab",
+        "name": "Clamp Dashboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a1031242a82f4783",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "a46b94b2b133966c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e4d9b1bef7c81e47",
+        "type": "ui_group",
+        "name": "Power",
+        "tab": "a46b94b2b133966c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b6aa97897a1ebf01",
+        "type": "ui_group",
+        "name": "Current",
+        "tab": "a46b94b2b133966c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d6509517702ed20",
+        "type": "ui_group",
+        "name": "Voltage",
+        "tab": "a46b94b2b133966c",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f67505b3e7896fe3",
+        "type": "ui_tab",
+        "name": "Turntable Dashboard",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3c3cdfbd8bd561d2",
+        "type": "ui_tab",
+        "name": "Pinshift Dashboard",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "28f2e6fcb0dcd3c9",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "3c3cdfbd8bd561d2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cf3992d04b5f8c29",
+        "type": "ui_group",
+        "name": "Power",
+        "tab": "3c3cdfbd8bd561d2",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9c35f57aecef93fa",
+        "type": "ui_group",
+        "name": "Voltage",
+        "tab": "3c3cdfbd8bd561d2",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "de821d87d267863f",
+        "type": "ui_group",
+        "name": "Current",
+        "tab": "3c3cdfbd8bd561d2",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "24b35e1415396406",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "f67505b3e7896fe3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e372a6f8effe58c6",
+        "type": "ui_group",
+        "name": "Power",
+        "tab": "f67505b3e7896fe3",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "37c162aa36fb7cd3",
+        "type": "ui_group",
+        "name": "Current",
+        "tab": "f67505b3e7896fe3",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "31d155410b1cdbbf",
+        "type": "ui_group",
+        "name": "Voltage",
+        "tab": "f67505b3e7896fe3",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "5507279392888f22",
         "type": "mqtt in",
         "z": "0edf600d61dcdd67",
         "name": "",
-        "topic": "Elis/temp",
+        "topic": "Elis/L0_temp",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "962ec500f55d5d78",
@@ -198,38 +356,22 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 380,
-        "y": 240,
+        "x": 130,
+        "y": 60,
         "wires": [
             [
-                "8f85fafc2ae7c887",
                 "0e5b929ac5101519",
-                "c354503980c85894"
+                "c354503980c85894",
+                "e2bd20400bfdbd6f"
             ]
         ]
-    },
-    {
-        "id": "8f85fafc2ae7c887",
-        "type": "debug",
-        "z": "0edf600d61dcdd67",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 240,
-        "wires": []
     },
     {
         "id": "2c684dff1d889af7",
         "type": "mqtt in",
         "z": "0edf600d61dcdd67",
         "name": "",
-        "topic": "Elis/watt",
+        "topic": "Elis/L0_watt",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "962ec500f55d5d78",
@@ -237,12 +379,13 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 380,
-        "y": 440,
+        "x": 130,
+        "y": 220,
         "wires": [
             [
                 "6b6f09ea77040f08",
-                "a6c92493786c514f"
+                "a6c92493786c514f",
+                "bbf3be12b46cc817"
             ]
         ]
     },
@@ -251,7 +394,7 @@
         "type": "mqtt in",
         "z": "0edf600d61dcdd67",
         "name": "",
-        "topic": "Elis/current",
+        "topic": "Elis/L0_current",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "962ec500f55d5d78",
@@ -259,12 +402,13 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 380,
-        "y": 520,
+        "x": 140,
+        "y": 400,
         "wires": [
             [
                 "129c85489f44c924",
-                "68127bc79bbe3180"
+                "68127bc79bbe3180",
+                "989ff9f0d5a8f97f"
             ]
         ]
     },
@@ -274,7 +418,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "fa5b607383d0a7ba",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -292,8 +436,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 650,
-        "y": 140,
+        "x": 370,
+        "y": 40,
         "wires": []
     },
     {
@@ -302,7 +446,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "52874eeb0edb9638",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -320,8 +464,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 630,
-        "y": 440,
+        "x": 370,
+        "y": 200,
         "wires": []
     },
     {
@@ -330,7 +474,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "50617d02264c9aec",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -348,8 +492,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 640,
-        "y": 640,
+        "x": 380,
+        "y": 420,
         "wires": []
     },
     {
@@ -358,7 +502,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "52874eeb0edb9638",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -390,8 +534,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 630,
-        "y": 480,
+        "x": 370,
+        "y": 240,
         "wires": [
             []
         ]
@@ -402,7 +546,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "50617d02264c9aec",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -434,8 +578,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 630,
-        "y": 580,
+        "x": 370,
+        "y": 380,
         "wires": [
             []
         ]
@@ -446,7 +590,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "fa5b607383d0a7ba",
-        "order": 0,
+        "order": 3,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -478,8 +622,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 650,
-        "y": 180,
+        "x": 370,
+        "y": 80,
         "wires": [
             []
         ]
@@ -499,8 +643,8 @@
         "resendOnRefresh": true,
         "templateScope": "global",
         "className": "",
-        "x": 920,
-        "y": 220,
+        "x": 1140,
+        "y": 360,
         "wires": [
             []
         ]
@@ -510,7 +654,7 @@
         "type": "mqtt in",
         "z": "0edf600d61dcdd67",
         "name": "",
-        "topic": "Elis/voltage",
+        "topic": "Elis/L0_voltage",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "962ec500f55d5d78",
@@ -518,12 +662,13 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 390,
-        "y": 740,
+        "x": 140,
+        "y": 580,
         "wires": [
             [
                 "7f9a85c08be81ddb",
-                "a6e591fe81686109"
+                "a6e591fe81686109",
+                "9c757e4d0b37a1cf"
             ]
         ]
     },
@@ -565,8 +710,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 610,
-        "y": 720,
+        "x": 370,
+        "y": 560,
         "wires": [
             []
         ]
@@ -595,8 +740,1524 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 620,
-        "y": 780,
+        "x": 380,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "3eeb96fe9d5c6ba8",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/C0_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 60,
+        "wires": [
+            [
+                "2cf4b907c89970a1",
+                "24be7b6676e41381"
+            ]
+        ]
+    },
+    {
+        "id": "9fd78a14d2037f1c",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/C0_watt",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 220,
+        "wires": [
+            [
+                "0ee6e7d7e39cfb8d",
+                "11ac79e6f59c11b2"
+            ]
+        ]
+    },
+    {
+        "id": "f99095aa2e0918c7",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/C0_current",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 400,
+        "wires": [
+            [
+                "83eba644f03ba531",
+                "4872f68852120a89"
+            ]
+        ]
+    },
+    {
+        "id": "2cf4b907c89970a1",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "a1031242a82f4783",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp",
+        "label": "Celsius",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "0ee6e7d7e39cfb8d",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "e4d9b1bef7c81e47",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Power",
+        "label": "mW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "300000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "83eba644f03ba531",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "b6aa97897a1ebf01",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Current",
+        "label": "mA",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "15000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 920,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "11ac79e6f59c11b2",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "e4d9b1bef7c81e47",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#05ff71",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4872f68852120a89",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "b6aa97897a1ebf01",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24be7b6676e41381",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "a1031242a82f4783",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#e9afaf",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d23ebaccb3b1112",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/C0_voltage",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 580,
+        "wires": [
+            [
+                "de64a2afeee19552",
+                "669b5af597e498f6"
+            ]
+        ]
+    },
+    {
+        "id": "de64a2afeee19552",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "3d6509517702ed20",
+        "order": 2,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "669b5af597e498f6",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "3d6509517702ed20",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Voltage",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "24",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 920,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2eeb664ea655b27a",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/L0_temp.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 280,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f5a0d1f037e6ee9",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 1",
+        "func": "msg.payload = new Date + \" temp: \" + msg.payload.temp.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 760,
+        "wires": [
+            [
+                "2eeb664ea655b27a"
+            ]
+        ]
+    },
+    {
+        "id": "2aac300ed066b15d",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "fa5b607383d0a7ba",
+        "name": "temp saver",
+        "order": 4,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"temperature\">\n    <button id=\"save_temp\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_temp\").onclick = function() {\n            var x = document.getElementById(\"temp_text\").innerHTML;\n            sendToNodeRED2(x)\n            document.getElementById(\"temp_text\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED2(temp) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            temp\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/temp_http', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 290,
+        "y": 760,
+        "wires": [
+            [
+                "9f5a0d1f037e6ee9"
+            ]
+        ]
+    },
+    {
+        "id": "aa86ebba2252d45c",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/temp_http",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 760,
+        "wires": [
+            [
+                "2aac300ed066b15d"
+            ]
+        ]
+    },
+    {
+        "id": "e2bd20400bfdbd6f",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "fa5b607383d0a7ba",
+        "name": "temp listener",
+        "order": 5,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"temperature\">\n    <p hidden id=\"temp_text\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"temp_text\").innerHTML = document.getElementById(\"temp_text\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bbf3be12b46cc817",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "52874eeb0edb9638",
+        "name": "watt listener",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"power\">\n    <p hidden id=\"watt_text\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"watt_text\").innerHTML = document.getElementById(\"watt_text\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c859b6cc6bc0c61",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/L0_watt.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 270,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "716222e698b6c544",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 2",
+        "func": "msg.payload = new Date + \" watt: \" + msg.payload.watt.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 900,
+        "wires": [
+            [
+                "3c859b6cc6bc0c61"
+            ]
+        ]
+    },
+    {
+        "id": "a468ffa9dfae028e",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "52874eeb0edb9638",
+        "name": "watt saver",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"power\">\n    <button id=\"save_watt\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_watt\").onclick = function() {\n            var watt = document.getElementById(\"watt_text\").innerHTML;\n            sendToNodeRED(watt)\n            document.getElementById(\"watt_text\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED(watt) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            watt\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/watt_http', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 290,
+        "y": 900,
+        "wires": [
+            [
+                "716222e698b6c544"
+            ]
+        ]
+    },
+    {
+        "id": "2243c136e9cc3b79",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/watt_http",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 900,
+        "wires": [
+            [
+                "a468ffa9dfae028e"
+            ]
+        ]
+    },
+    {
+        "id": "989ff9f0d5a8f97f",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "50617d02264c9aec",
+        "name": "current listener",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"current\">\n    <p hidden id=\"current_text\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"current_text\").innerHTML = document.getElementById(\"current_text\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "928e21457142ea8a",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/L0_current.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 280,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99a257e45bee0a71",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 3",
+        "func": "msg.payload = new Date + \" current: \" + msg.payload.current.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1020,
+        "wires": [
+            [
+                "928e21457142ea8a"
+            ]
+        ]
+    },
+    {
+        "id": "04d9da87f70d42cf",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "50617d02264c9aec",
+        "name": "current saver",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"current\">\n    <button id=\"save_current\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_current\").onclick = function() {\n            var current = document.getElementById(\"current_text\").innerHTML;\n            sendToNodeRED3(current)\n            document.getElementById(\"current_text\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED3(current) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            current\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/current_http', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 290,
+        "y": 1020,
+        "wires": [
+            [
+                "99a257e45bee0a71"
+            ]
+        ]
+    },
+    {
+        "id": "29aa5cbec90d9373",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/current_http",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 1020,
+        "wires": [
+            [
+                "04d9da87f70d42cf"
+            ]
+        ]
+    },
+    {
+        "id": "9c757e4d0b37a1cf",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "8c4f60ab2f3d921e",
+        "name": "voltage listener",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"voltage\">\n    <p hidden id=\"voltage_text\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"voltage_text\").innerHTML = document.getElementById(\"voltage_text\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65f7644f53832063",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/L0_voltage.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 280,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e3edb8915b13057",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 4",
+        "func": "msg.payload = new Date + \" voltage: \" + msg.payload.voltage.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1140,
+        "wires": [
+            [
+                "65f7644f53832063"
+            ]
+        ]
+    },
+    {
+        "id": "62b816faf5012097",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "8c4f60ab2f3d921e",
+        "name": "voltage saver",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"voltage\">\n    <button id=\"save_voltage\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_voltage\").onclick = function() {\n            var voltage = document.getElementById(\"voltage_text\").innerHTML;\n            sendToNodeRED4(voltage)\n            document.getElementById(\"voltage_text\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED4(voltage) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            voltage\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/voltage_http', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 290,
+        "y": 1140,
+        "wires": [
+            [
+                "2e3edb8915b13057"
+            ]
+        ]
+    },
+    {
+        "id": "3b563d7a64335221",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/voltage_http",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 1140,
+        "wires": [
+            [
+                "62b816faf5012097"
+            ]
+        ]
+    },
+    {
+        "id": "062feb0523543824",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/P0_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 1340,
+        "wires": [
+            [
+                "326bcab5867b36f1",
+                "8d56b1a2172093af"
+            ]
+        ]
+    },
+    {
+        "id": "d0297d881f207701",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/P0_watt",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 1500,
+        "wires": [
+            [
+                "f8497ae1df68660e",
+                "81450533288fe5aa"
+            ]
+        ]
+    },
+    {
+        "id": "d72ca9d1635f1e9e",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/P0_current",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 1680,
+        "wires": [
+            [
+                "d044de4924f20785",
+                "c582f01307c4f3f1"
+            ]
+        ]
+    },
+    {
+        "id": "326bcab5867b36f1",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "28f2e6fcb0dcd3c9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp",
+        "label": "Celsius",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 370,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "f8497ae1df68660e",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "cf3992d04b5f8c29",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Power",
+        "label": "mW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "300000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 370,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "d044de4924f20785",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "de821d87d267863f",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Current",
+        "label": "mA",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "15000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 380,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "81450533288fe5aa",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "cf3992d04b5f8c29",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#05ff71",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 370,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c582f01307c4f3f1",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "de821d87d267863f",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 370,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d56b1a2172093af",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "28f2e6fcb0dcd3c9",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#e9afaf",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 370,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d50c361ee7489507",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/P0_voltage",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 1860,
+        "wires": [
+            [
+                "415610ea92a5bd20",
+                "4b3de12b3a9a128c"
+            ]
+        ]
+    },
+    {
+        "id": "415610ea92a5bd20",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "9c35f57aecef93fa",
+        "order": 2,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 370,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b3de12b3a9a128c",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "9c35f57aecef93fa",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Voltage",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "24",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 380,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "20a57e540828391f",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/T0_temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 650,
+        "y": 1340,
+        "wires": [
+            [
+                "64d2e0bec4fb8117",
+                "4af8c84ada523ef0"
+            ]
+        ]
+    },
+    {
+        "id": "20d0336358edce3d",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/T0_watt",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 650,
+        "y": 1500,
+        "wires": [
+            [
+                "474229bddb955d6b",
+                "d47834b7457a2ab7"
+            ]
+        ]
+    },
+    {
+        "id": "78950e463c7ff7ba",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/T0_current",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 1680,
+        "wires": [
+            [
+                "1c256e1a1123cd65",
+                "23cdfd80b511967b"
+            ]
+        ]
+    },
+    {
+        "id": "64d2e0bec4fb8117",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "24b35e1415396406",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp",
+        "label": "Celsius",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 890,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "474229bddb955d6b",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "e372a6f8effe58c6",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Power",
+        "label": "mW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "300000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 890,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "1c256e1a1123cd65",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "37c162aa36fb7cd3",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Current",
+        "label": "mA",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "15000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "d47834b7457a2ab7",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "e372a6f8effe58c6",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#05ff71",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23cdfd80b511967b",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "37c162aa36fb7cd3",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4af8c84ada523ef0",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "24b35e1415396406",
+        "order": 0,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#e9afaf",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d247eac5fcfd792",
+        "type": "mqtt in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "topic": "Elis/T0_voltage",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "962ec500f55d5d78",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 1860,
+        "wires": [
+            [
+                "8c39bab18e7e8193",
+                "559b64b220e59326"
+            ]
+        ]
+    },
+    {
+        "id": "8c39bab18e7e8193",
+        "type": "ui_chart",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "31d155410b1cdbbf",
+        "order": 2,
+        "width": "6",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 890,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "559b64b220e59326",
+        "type": "ui_gauge",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "group": "31d155410b1cdbbf",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Voltage",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "24",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1880,
         "wires": []
     }
 ]
