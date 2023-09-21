@@ -505,7 +505,7 @@
         "order": 2,
         "width": "6",
         "height": "12",
-        "label": "chart",
+        "label": "",
         "chartType": "line",
         "legend": "false",
         "xformat": "auto",
@@ -549,7 +549,7 @@
         "order": 2,
         "width": "6",
         "height": "12",
-        "label": "chart",
+        "label": "",
         "chartType": "line",
         "legend": "false",
         "xformat": "auto",
@@ -593,7 +593,7 @@
         "order": 3,
         "width": "6",
         "height": "12",
-        "label": "chart",
+        "label": "",
         "chartType": "line",
         "legend": "false",
         "xformat": "auto",
@@ -681,7 +681,7 @@
         "order": 2,
         "width": "6",
         "height": "12",
-        "label": "chart",
+        "label": "",
         "chartType": "line",
         "legend": "false",
         "xformat": "auto",
@@ -762,7 +762,8 @@
         "wires": [
             [
                 "2cf4b907c89970a1",
-                "24be7b6676e41381"
+                "24be7b6676e41381",
+                "404d8f68d12ad240"
             ]
         ]
     },
@@ -784,7 +785,8 @@
         "wires": [
             [
                 "0ee6e7d7e39cfb8d",
-                "11ac79e6f59c11b2"
+                "11ac79e6f59c11b2",
+                "a75d341af6e6f89b"
             ]
         ]
     },
@@ -806,7 +808,8 @@
         "wires": [
             [
                 "83eba644f03ba531",
-                "4872f68852120a89"
+                "4872f68852120a89",
+                "c521813908da6d6e"
             ]
         ]
     },
@@ -844,7 +847,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "e4d9b1bef7c81e47",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -872,7 +875,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "b6aa97897a1ebf01",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -900,7 +903,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "e4d9b1bef7c81e47",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -944,7 +947,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "b6aa97897a1ebf01",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -988,7 +991,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "a1031242a82f4783",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -1044,7 +1047,8 @@
         "wires": [
             [
                 "de64a2afeee19552",
-                "669b5af597e498f6"
+                "669b5af597e498f6",
+                "c81e92f7029639b8"
             ]
         ]
     },
@@ -1526,7 +1530,8 @@
         "wires": [
             [
                 "326bcab5867b36f1",
-                "8d56b1a2172093af"
+                "8d56b1a2172093af",
+                "7b34ac13c9c44833"
             ]
         ]
     },
@@ -1548,7 +1553,8 @@
         "wires": [
             [
                 "f8497ae1df68660e",
-                "81450533288fe5aa"
+                "81450533288fe5aa",
+                "2fc41380847f04f8"
             ]
         ]
     },
@@ -1570,7 +1576,8 @@
         "wires": [
             [
                 "d044de4924f20785",
-                "c582f01307c4f3f1"
+                "c582f01307c4f3f1",
+                "94605b4795277d79"
             ]
         ]
     },
@@ -1608,7 +1615,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "cf3992d04b5f8c29",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -1636,7 +1643,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "de821d87d267863f",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -1664,7 +1671,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "cf3992d04b5f8c29",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -1708,7 +1715,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "de821d87d267863f",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -1752,7 +1759,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "28f2e6fcb0dcd3c9",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -1808,7 +1815,8 @@
         "wires": [
             [
                 "415610ea92a5bd20",
-                "4b3de12b3a9a128c"
+                "4b3de12b3a9a128c",
+                "9271c1e2189f7c99"
             ]
         ]
     },
@@ -1902,7 +1910,8 @@
         "wires": [
             [
                 "64d2e0bec4fb8117",
-                "4af8c84ada523ef0"
+                "4af8c84ada523ef0",
+                "bde6089a2e17960d"
             ]
         ]
     },
@@ -1924,7 +1933,8 @@
         "wires": [
             [
                 "474229bddb955d6b",
-                "d47834b7457a2ab7"
+                "d47834b7457a2ab7",
+                "0aa7de38ad35d079"
             ]
         ]
     },
@@ -1946,7 +1956,8 @@
         "wires": [
             [
                 "1c256e1a1123cd65",
-                "23cdfd80b511967b"
+                "23cdfd80b511967b",
+                "7bac8d923708e78b"
             ]
         ]
     },
@@ -1984,7 +1995,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "e372a6f8effe58c6",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -2012,7 +2023,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "37c162aa36fb7cd3",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "gage",
@@ -2040,7 +2051,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "e372a6f8effe58c6",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -2084,7 +2095,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "37c162aa36fb7cd3",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -2128,7 +2139,7 @@
         "z": "0edf600d61dcdd67",
         "name": "",
         "group": "24b35e1415396406",
-        "order": 0,
+        "order": 2,
         "width": "6",
         "height": "12",
         "label": "chart",
@@ -2184,7 +2195,8 @@
         "wires": [
             [
                 "8c39bab18e7e8193",
-                "559b64b220e59326"
+                "559b64b220e59326",
+                "ba741ac208242ac4"
             ]
         ]
     },
@@ -2259,5 +2271,1169 @@
         "x": 900,
         "y": 1880,
         "wires": []
+    },
+    {
+        "id": "404d8f68d12ad240",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "a1031242a82f4783",
+        "name": "temp listener 2",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"temperature2\">\n    <p hidden id=\"temp_text2\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"temp_text2\").innerHTML = document.getElementById(\"temp_text2\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 940,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a75d341af6e6f89b",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "e4d9b1bef7c81e47",
+        "name": "watt listener 2",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"power2\">\n    <p hidden id=\"watt_text2\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"watt_text2\").innerHTML = document.getElementById(\"watt_text2\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 940,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c521813908da6d6e",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "b6aa97897a1ebf01",
+        "name": "current listener 2",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"current2\">\n    <p hidden id=\"current_text2\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"current_text2\").innerHTML = document.getElementById(\"current_text2\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 950,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c81e92f7029639b8",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "3d6509517702ed20",
+        "name": "voltage listener 2",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"voltage2\">\n    <p hidden id=\"voltage_text2\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"voltage_text2\").innerHTML = document.getElementById(\"voltage_text2\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 950,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "868dec7ec3bb360b",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/C0_temp.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 860,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c810e01d1ae4c2f6",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 5",
+        "func": "msg.payload = new Date + \" temp: \" + msg.payload.temp2.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 760,
+        "wires": [
+            [
+                "868dec7ec3bb360b"
+            ]
+        ]
+    },
+    {
+        "id": "55b098b44e6c1e72",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "a1031242a82f4783",
+        "name": "temp saver 2",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"temperature2\">\n    <button id=\"save_temp2\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_temp2\").onclick = function() {\n            var x = document.getElementById(\"temp_text2\").innerHTML;\n            sendToNodeRED5(x)\n            document.getElementById(\"temp_text2\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED5(temp2) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            temp2\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/temp_http2', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 870,
+        "y": 760,
+        "wires": [
+            [
+                "c810e01d1ae4c2f6"
+            ]
+        ]
+    },
+    {
+        "id": "29045fe918081311",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/temp_http2",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 690,
+        "y": 760,
+        "wires": [
+            [
+                "55b098b44e6c1e72"
+            ]
+        ]
+    },
+    {
+        "id": "a2ea25d598dfb739",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/C0_watt.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 840,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94d0f0d14b1f682f",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 6",
+        "func": "msg.payload = new Date + \" watt: \" + msg.payload.watt2.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 900,
+        "wires": [
+            [
+                "a2ea25d598dfb739"
+            ]
+        ]
+    },
+    {
+        "id": "b13571c594723c47",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "e4d9b1bef7c81e47",
+        "name": "watt saver 2",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"power2\">\n    <button id=\"save_watt2\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_watt2\").onclick = function() {\n            var watt = document.getElementById(\"watt_text2\").innerHTML;\n            sendToNodeRED6(watt)\n            document.getElementById(\"watt_text2\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED6(watt2) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            watt2\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/watt_http2', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 870,
+        "y": 900,
+        "wires": [
+            [
+                "94d0f0d14b1f682f"
+            ]
+        ]
+    },
+    {
+        "id": "505815c1a99e5c62",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/watt_http2",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 700,
+        "y": 900,
+        "wires": [
+            [
+                "b13571c594723c47"
+            ]
+        ]
+    },
+    {
+        "id": "01e7f0af3ed8ef6f",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/C0_current.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 860,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8379838bf53e82a9",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 7",
+        "func": "msg.payload = new Date + \" current: \" + msg.payload.current2.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1020,
+        "wires": [
+            [
+                "01e7f0af3ed8ef6f"
+            ]
+        ]
+    },
+    {
+        "id": "71f1150b276f4caf",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "b6aa97897a1ebf01",
+        "name": "current saver 2",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"current2\">\n    <button id=\"save_current2\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_current2\").onclick = function() {\n            var current2 = document.getElementById(\"current_text2\").innerHTML;\n            sendToNodeRED7(current2)\n            document.getElementById(\"current_text2\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED7(current2) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            current2\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/current_http2', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 1020,
+        "wires": [
+            [
+                "8379838bf53e82a9"
+            ]
+        ]
+    },
+    {
+        "id": "dcf2d041154f9acd",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/current_http2",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 690,
+        "y": 1020,
+        "wires": [
+            [
+                "71f1150b276f4caf"
+            ]
+        ]
+    },
+    {
+        "id": "712669e1c3b97f3e",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/C0_voltage.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 880,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f93147508d87c651",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 8",
+        "func": "msg.payload = new Date + \" voltage: \" + msg.payload.voltage2.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1140,
+        "wires": [
+            [
+                "712669e1c3b97f3e"
+            ]
+        ]
+    },
+    {
+        "id": "f99c4093c4911dc6",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "3d6509517702ed20",
+        "name": "voltage saver 2",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"voltage2\">\n    <button id=\"save_voltage2\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_voltage2\").onclick = function() {\n            var voltage2 = document.getElementById(\"voltage_text2\").innerHTML;\n            sendToNodeRED8(voltage2)\n            document.getElementById(\"voltage_text2\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED8(voltage2) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            voltage2\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/voltage_http2', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 1140,
+        "wires": [
+            [
+                "f93147508d87c651"
+            ]
+        ]
+    },
+    {
+        "id": "b301afc33c669399",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/voltage_http2",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 690,
+        "y": 1140,
+        "wires": [
+            [
+                "f99c4093c4911dc6"
+            ]
+        ]
+    },
+    {
+        "id": "7b34ac13c9c44833",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "28f2e6fcb0dcd3c9",
+        "name": "temp listener 3",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"temperature3\">\n    <p hidden id=\"temp_text3\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"temp_text3\").innerHTML = document.getElementById(\"temp_text3\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2fc41380847f04f8",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "cf3992d04b5f8c29",
+        "name": "watt listener 3",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"power3\">\n    <p hidden id=\"watt_text3\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"watt_text3\").innerHTML = document.getElementById(\"watt_text3\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94605b4795277d79",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "de821d87d267863f",
+        "name": "current listener 3",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"current3\">\n    <p hidden id=\"current_text3\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"current_text3\").innerHTML = document.getElementById(\"current_text3\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 410,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9271c1e2189f7c99",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "9c35f57aecef93fa",
+        "name": "voltage listener 3",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"voltage3\">\n    <p hidden id=\"voltage_text3\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"voltage_text3\").innerHTML = document.getElementById(\"voltage_text3\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 410,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bde6089a2e17960d",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "24b35e1415396406",
+        "name": "temp listener 4",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"temperature4\">\n    <p hidden id=\"temp_text4\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"temp_text4\").innerHTML = document.getElementById(\"temp_text4\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 920,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0aa7de38ad35d079",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "e372a6f8effe58c6",
+        "name": "watt listener 4",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"power4\">\n    <p hidden id=\"watt_text4\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"watt_text4\").innerHTML = document.getElementById(\"watt_text4\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 920,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7bac8d923708e78b",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "37c162aa36fb7cd3",
+        "name": "current listener 4",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"current4\">\n    <p hidden id=\"current_text4\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"current_text4\").innerHTML = document.getElementById(\"current_text4\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 930,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba741ac208242ac4",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "31d155410b1cdbbf",
+        "name": "voltage listener 4",
+        "order": 4,
+        "width": "6",
+        "height": "2",
+        "format": "<div \"voltage4\">\n    <p hidden id=\"voltage_text4\"></p>\n    <script>\n        (function(scope) {\n\n        scope.$watch('msg.payload', function(newVal, oldVal) {\n            document.getElementById(\"voltage_text4\").innerHTML = document.getElementById(\"voltage_text4\").innerHTML + \",\" + scope.msg.payload\n        })\n        })(scope)\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 930,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9f4538fc8170d46",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/P0_temp.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 280,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52941c9d30ecce5f",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 9",
+        "func": "msg.payload = new Date + \" temp: \" + msg.payload.temp3.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 2020,
+        "wires": [
+            [
+                "d9f4538fc8170d46"
+            ]
+        ]
+    },
+    {
+        "id": "df03b3396d4876d2",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "28f2e6fcb0dcd3c9",
+        "name": "temp saver 3",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"temperature3\">\n    <button id=\"save_temp3\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_temp3\").onclick = function() {\n            var x = document.getElementById(\"temp_text3\").innerHTML;\n            sendToNodeRED9(x)\n            document.getElementById(\"temp_text3\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED9(temp3) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            temp3\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/temp_http3', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 290,
+        "y": 2020,
+        "wires": [
+            [
+                "52941c9d30ecce5f"
+            ]
+        ]
+    },
+    {
+        "id": "ea1ec725c3f64e6a",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/temp_http3",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 2020,
+        "wires": [
+            [
+                "df03b3396d4876d2"
+            ]
+        ]
+    },
+    {
+        "id": "a02c08b5078ed759",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/P0_watt.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 270,
+        "y": 2220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4368d4c95b38c55",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 10",
+        "func": "msg.payload = new Date + \" watt: \" + msg.payload.watt.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2160,
+        "wires": [
+            [
+                "a02c08b5078ed759"
+            ]
+        ]
+    },
+    {
+        "id": "080481cb8c458c5b",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "cf3992d04b5f8c29",
+        "name": "watt saver 3",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"power3\">\n    <button id=\"save_watt3\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_watt3\").onclick = function() {\n            var watt3 = document.getElementById(\"watt_text3\").innerHTML;\n            sendToNodeRED10(watt3)\n            document.getElementById(\"watt_text3\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED10(watt) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            watt\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/watt_http3', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 290,
+        "y": 2160,
+        "wires": [
+            [
+                "d4368d4c95b38c55"
+            ]
+        ]
+    },
+    {
+        "id": "d4de51c4d328bc9a",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/watt_http3",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 2160,
+        "wires": [
+            [
+                "080481cb8c458c5b"
+            ]
+        ]
+    },
+    {
+        "id": "78f0cd95ec7873f5",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/P0_current.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 280,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97b83f7888240ab3",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 11",
+        "func": "msg.payload = new Date + \" current: \" + msg.payload.current.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2280,
+        "wires": [
+            [
+                "78f0cd95ec7873f5"
+            ]
+        ]
+    },
+    {
+        "id": "65b3f8f2b8ba74be",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "de821d87d267863f",
+        "name": "current saver 3",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"current3\">\n    <button id=\"save_current3\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_current3\").onclick = function() {\n            var current3 = document.getElementById(\"current_text3\").innerHTML;\n            sendToNodeRED11(current3)\n            document.getElementById(\"current_text3\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED11(current) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            current\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/current_http3', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 2280,
+        "wires": [
+            [
+                "97b83f7888240ab3"
+            ]
+        ]
+    },
+    {
+        "id": "ca107aa5b67e4ed6",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/current_http3",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 2280,
+        "wires": [
+            [
+                "65b3f8f2b8ba74be"
+            ]
+        ]
+    },
+    {
+        "id": "add10baf89c930d7",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/P0_voltage.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 280,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "21504b428b8a678b",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 12",
+        "func": "msg.payload = new Date + \" voltage: \" + msg.payload.voltage.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2400,
+        "wires": [
+            [
+                "add10baf89c930d7"
+            ]
+        ]
+    },
+    {
+        "id": "86d8599448fe93e3",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "9c35f57aecef93fa",
+        "name": "voltage saver 3",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"voltage3\">\n    <button id=\"save_voltage3\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_voltage3\").onclick = function() {\n            var voltage3 = document.getElementById(\"voltage_text3\").innerHTML;\n            sendToNodeRED12(voltage3)\n            document.getElementById(\"voltage_text3\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED12(voltage) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            voltage\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/voltage_http3', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 2400,
+        "wires": [
+            [
+                "21504b428b8a678b"
+            ]
+        ]
+    },
+    {
+        "id": "baaabcddae4c6b04",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/voltage_http3",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 2400,
+        "wires": [
+            [
+                "86d8599448fe93e3"
+            ]
+        ]
+    },
+    {
+        "id": "059c6ee1fb43b356",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/T0_temp.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 880,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ebae7d8f7a4b0f1",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 13",
+        "func": "msg.payload = new Date + \" temp: \" + msg.payload.temp.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 2020,
+        "wires": [
+            [
+                "059c6ee1fb43b356"
+            ]
+        ]
+    },
+    {
+        "id": "491ce582339477d5",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "24b35e1415396406",
+        "name": "temp saver 4",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"temperature4\">\n    <button id=\"save_temp4\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_temp4\").onclick = function() {\n            var x = document.getElementById(\"temp_text4\").innerHTML;\n            sendToNodeRED13(x)\n            document.getElementById(\"temp_text4\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED13(temp) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            temp\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/temp_http4', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 870,
+        "y": 2020,
+        "wires": [
+            [
+                "0ebae7d8f7a4b0f1"
+            ]
+        ]
+    },
+    {
+        "id": "3fd55080b77e4572",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/temp_http4",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 690,
+        "y": 2020,
+        "wires": [
+            [
+                "491ce582339477d5"
+            ]
+        ]
+    },
+    {
+        "id": "5cadda67f757ed8f",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/T0_watt.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 870,
+        "y": 2220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ff44e44bdb813a4",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 14",
+        "func": "msg.payload = new Date + \" watt: \" + msg.payload.watt.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 2160,
+        "wires": [
+            [
+                "5cadda67f757ed8f"
+            ]
+        ]
+    },
+    {
+        "id": "47cbd8865296a388",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "e372a6f8effe58c6",
+        "name": "watt saver 4",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"power4\">\n    <button id=\"save_watt4\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_watt4\").onclick = function() {\n            var watt4 = document.getElementById(\"watt_text4\").innerHTML;\n            sendToNodeRED14(watt4)\n            document.getElementById(\"watt_text4\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED14(watt) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            watt\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/watt_http4', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 870,
+        "y": 2160,
+        "wires": [
+            [
+                "6ff44e44bdb813a4"
+            ]
+        ]
+    },
+    {
+        "id": "9a201f9f64155601",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/watt_http4",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 700,
+        "y": 2160,
+        "wires": [
+            [
+                "47cbd8865296a388"
+            ]
+        ]
+    },
+    {
+        "id": "c7d0e327561cec05",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/T0_current.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 880,
+        "y": 2340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d645b31af07c2749",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 15",
+        "func": "msg.payload = new Date + \" current: \" + msg.payload.current.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 2280,
+        "wires": [
+            [
+                "c7d0e327561cec05"
+            ]
+        ]
+    },
+    {
+        "id": "b7edbe064ade3ab7",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "37c162aa36fb7cd3",
+        "name": "current saver 4",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"current4\">\n    <button id=\"save_current4\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_current4\").onclick = function() {\n            var current4 = document.getElementById(\"current_text4\").innerHTML;\n            sendToNodeRED15(current4)\n            document.getElementById(\"current_text4\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED15(current) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            current\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/current_http4', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 2280,
+        "wires": [
+            [
+                "d645b31af07c2749"
+            ]
+        ]
+    },
+    {
+        "id": "ad5f168c3b537462",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/current_http4",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 690,
+        "y": 2280,
+        "wires": [
+            [
+                "b7edbe064ade3ab7"
+            ]
+        ]
+    },
+    {
+        "id": "4e1b31a0ea771dee",
+        "type": "file",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "filename": "/home/oozdemir/Desktop/sensor_values/T0_voltage.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 860,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f9b6c0991a23cff",
+        "type": "function",
+        "z": "0edf600d61dcdd67",
+        "name": "function 16",
+        "func": "msg.payload = new Date + \" voltage: \" + msg.payload.voltage.slice(1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 2400,
+        "wires": [
+            [
+                "4e1b31a0ea771dee"
+            ]
+        ]
+    },
+    {
+        "id": "1a084f63d3a0e43d",
+        "type": "ui_template",
+        "z": "0edf600d61dcdd67",
+        "group": "31d155410b1cdbbf",
+        "name": "voltage saver 4",
+        "order": 3,
+        "width": "6",
+        "height": "3",
+        "format": "<div \"voltage4\">\n    <button id=\"save_voltage4\" type=\"button\" class=\"save_button\">Save to File</button>\n    <style>\n        .save_button {\n            background-color: #D3D3D3;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            margin: auto;\n            height: 6vh;\n            width: 35vh;\n        }\n    </style>\n    <script>\n        document.getElementById(\"save_voltage4\").onclick = function() {\n            var voltage4 = document.getElementById(\"voltage_text4\").innerHTML;\n            sendToNodeRED16(voltage4)\n            document.getElementById(\"voltage_text4\").innerHTML = \"\"\n        };       \n        \n        function sendToNodeRED16(voltage) {\n            // Mesaj nesnesini oluşturun ve msg.payload'ı ayarlayın\n            var message = {\n            voltage\n            };\n            \n            // Node-RED'e HTTP POST isteği gönderin\n            fetch('/voltage_http4', {\n            method: 'POST',\n            body: JSON.stringify(message),\n            headers: {\n            'Content-Type': 'application/json'\n            }\n            })\n            .then(response => {\n            // Başarılı bir yanıt alındığında burada bir işlem yapabilirsiniz\n            })\n            .catch(error => {\n            console.error('Hata:', error);\n            });\n        }\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 880,
+        "y": 2400,
+        "wires": [
+            [
+                "9f9b6c0991a23cff"
+            ]
+        ]
+    },
+    {
+        "id": "1ece2fdbd8cdcdc7",
+        "type": "http in",
+        "z": "0edf600d61dcdd67",
+        "name": "",
+        "url": "/voltage_http4",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 690,
+        "y": 2400,
+        "wires": [
+            [
+                "1a084f63d3a0e43d"
+            ]
+        ]
     }
 ]
